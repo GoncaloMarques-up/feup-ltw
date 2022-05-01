@@ -1,0 +1,63 @@
+body > section > form {
+  background-color: white;
+  color: black;
+  margin: 2em auto;
+  width: 20em;
+  padding: 1em;
+}
+
+body > section > form label {
+  padding: 1em;
+}
+
+body > section > form label, body > section > form input, body > section > form textarea {
+  display: block;
+}
+
+body > section > form input, body > section > form textarea {
+  border: none;
+  background-color: white;
+  color: black;
+  border-bottom: 1px solid black;
+  margin-top: 1em;
+  width: 100%;
+  font-size: 0.9em;
+}
+
+body > section > form textarea {
+  height: 15em; 
+}
+
+body > section > form button {
+  width: auto;
+
+  background-color: black;
+  color: white;
+
+  border: none;
+  margin: 1em;
+  padding: 1em;
+}
+
+body > section > form input:focus {
+  outline: none;
+  border-bottom: 1px solid #046dd5;
+}
+
+body > section > form h1, #login h1, #register h1, #edit h1, #create h1 {
+  text-align: center;
+}
+
+#edit form, #create form {
+  width: 30em; 
+}
+
+@media (max-width: 30em) {
+  body > section > form {
+    background-color: white;
+  }
+
+  #edit form {
+    width: initial;
+  }
+}

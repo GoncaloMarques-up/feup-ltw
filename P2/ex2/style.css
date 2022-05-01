@@ -1,0 +1,33 @@
+body{
+    position: relative;
+}
+
+main{
+    position: relative;
+    width:38em;
+}
+
+main #s1{
+    width: 18em;
+    position: absolute;
+    top: 0; left: 0;
+}
+
+main #s2{
+    width: 18em;
+    position: absolute;
+    top: 0; right: 0;
+}
+
+body > aside{
+    width:20em;
+    position: absolute;
+    right:0;
+    height:6em;
+}
+body > footer {
+    width: 20em;
+    position: absolute;
+    right: 0;
+    margin-top: 8em;
+  }
